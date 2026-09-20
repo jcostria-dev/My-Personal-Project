@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>My Personal Profile</title>
+
+    <style>
+        * {
+            margin: 10;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #dbeafe, #f5f3ff);
+        }
+
+        header {
+            background: #1e1b4b;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1000px;
+            margin: 40px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            margin-bottom: 25px;
+            border-radius: 18px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+        }
+
+        h2 {
+            color: #4f46e5;
+            margin-bottom: 15px;
+            
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .profile-image {
+            display: block;
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 6px solid #e0e7ff;
+            box-shadow: 0 5px 20px rgba(79, 70, 229, 0.25);
+        }
+
+        ul,
+        ol {
+            padding-left: 25px;
+        }
+
+        li {
+            margin: 8px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        th {
+            background: #4f46e5;
+            color: white;
+            padding: 12px;
+        }
+
+        td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        tr:nth-child(even) {
+            background: #f3f4ff;
+        }
+
+        tr:hover {
+            background: #e0e7ff;
+        }
+
+        .contact {
+            text-align: center;
+        }
+
+        .contact a {
+            display: inline-block;
+            background: #4f46e5;
+            color: white;
+            text-decoration: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            transition: 0.3s;
+        }
+
+        .contact a:hover {
+            background: #7c3aed;
+            transform: translateY(-2px);
+        }
+
+        footer {
+            text-align: center;
+            background: #1e1b4b;
+            color: white;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            .card {
+                padding: 20px;
+            }
+
+            table {
+                font-size: 14px;
+            }
+
+            th,
+            td {
+                padding: 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>JOHN CLAUDE OSTRIA</h1>
+        <p>Student | Learner | Future Professional</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+          
+          <!-- AKALA KO AMBON. LOHA KO PALA -->
+          <!-- larawan -->
+          
+            <img
+                src="picc.jpeg"
+                alt="Handsome -MAMA"
+                class="profile-image"
+            >
+
+            <h2 style ="text-align: center;">About Me</h2>
+
+            <p>
+                Hello! My name is <strong>John Claude Ostria</strong>. I am a student who
+                enjoys learning seemingly irrelevant things, exploring my psyche, and improving
+                my skills. I am currently studying and working toward my personal
+                and academic goals.
+            </p>
+
+            <p>
+                In my free time, I enjoy spending time alone,
+                listening to music, watching live gaming streams, and learning about programming
+                and web development. I believe that the most difficult thing is the decision to act;
+                the rest is merely tenacity.
+            </p>
+        </section>
+      
+      <!-- Mga Trip gawin sa buhah -->
+
+        <section class="card">
+            <h2 style ="text-align: center;">My Skills &amp; Hobbies</h2>
+
+            <ul>
+                <li>Web Design and HTML</li>
+                <li>Playing Online Games</li>
+                <li>Listening to Music</li>
+                <li>Reading</li>
+                <li>Knitting</li>
+            </ul>
+        </section>
+
+      <!-- 2% -->
+        <section class="card">
+            <h2 style ="text-align: center;">My Top 3 Goals This Term</h2>
+
+            <ol>
+                <li>Improve my HTML and CSS skills.</li>
+                <li>Complete all my school projects on time.</li>
+                <li>Get better grades through consistent studying.</li>
+            </ol>
+        </section> 
+
+      <!-- Bitin sa 3 days -->
+
+        <section class="card">
+            <h2 style ="text-align: center;"> My Weekly Class Schedule </h2>
+          
+            <table>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Subject</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Thursday</td>
+                        <td>Web Programming &amp; Contemporary World</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>Capstone</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>Arts &amp; Humanities, Database &amp; Application Development</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="card contact">
+            <h2>Contact Me</h2>
+
+            <p
+             class="centered-text">Want to get in touch? <br>
+                                                          You can send me an email.
+                
+            </p>
+
+          <!-- active sa gmail -->
+
+            <a href="mailto:johnclaudeostria@gmail.com">
+                Email Me
+            </a>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 JCO. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
